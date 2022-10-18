@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 
+
 /**
   * main - putchar function
   * Description: Get the character to be wrtten
