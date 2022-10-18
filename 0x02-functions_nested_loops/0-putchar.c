@@ -3,14 +3,20 @@
 /**
   * main - putchar function
   * Description: Get the character to be wrtten
+  * for loop to get value
   * Return: 0.
   */
 int main(void)
 {
 
-	char ch = 'G';
+	char ch = '1';
 
-	putchar(ch);
+
+	for (ch = '1' ; ch <= '9' ; ch++)
+
+			putchar(ch);
+
+	putchar('\n');
 
 	return (0);
 }
