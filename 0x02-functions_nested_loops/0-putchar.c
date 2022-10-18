@@ -17,7 +17,7 @@ int main(void)
 	for (ch = '1' ; ch <= '9' ; ch++)
 		_putchar(ch);
 
-	putchar('\n');
+	_putchar("\n");
 
 	return (0);
 }
