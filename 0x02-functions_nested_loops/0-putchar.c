@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
   * main - putchar function
   * Description: Get the character to be wrtten
@@ -14,7 +15,8 @@ int main(void)
 
 	for (ch = '1' ; ch <= '9' ; ch++)
 
-			putchar(ch);
+
+		putchar(ch);
 
 	putchar('\n');
 
