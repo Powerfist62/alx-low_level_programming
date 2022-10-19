@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 
@@ -17,7 +18,7 @@ int main(void)
 	for (ch = '1' ; ch <= '9' ; ch++)
 		_putchar(ch);
 
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
